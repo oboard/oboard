@@ -1,0 +1,26 @@
+name: Update Trophy Daily
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # 每天 UTC 时间 12:00 (北京时间 20:00) 运行
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  update-trophy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download Trophy SVG
+      run: |
+        curl -s -o trophy.svg "https://github-profile-trophy.vercel.app/?username=oboard&theme=merko&row=1&column=7&margin-h=15&margin-w=5&no-bg=true"
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add trophy.svg
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update trophy.svg"
+        git push
