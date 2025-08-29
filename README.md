@@ -17,13 +17,6 @@
 
 I'm a passionate software developer working with various programming languages and frameworks. I enjoy building applications for different platforms and exploring new technologies. My projects focus on recording text, images, and calculations, bringing creative ideas to life through code.
 
-
-<p align="center">
-	<a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      	<img align="center" width=100% src="https://github-profile-trophy.vercel.app/?username=oboard&theme=merko&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" width="1000" alt="TROPHY" />
-   	</a>
-</p>
-
 <p align="center">
 	<table>
 		<tr>
