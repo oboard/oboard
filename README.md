@@ -15,7 +15,7 @@
 
 ### 👨‍💻 About Me
 
-I'm a passionate software developer working with various programming languages and frameworks. I enjoy building applications for different platforms and exploring new technologies. My projects focus on recording text, images, and calculations, bringing creative ideas to life through code.
+I'm a passionate software developer working with various programming languages and frameworks. I enjoy building applications for different platforms and exploring new technologies. My projects focus on text, images, and calculations, bringing creative ideas to life through code.
 
 <p align="center">
 	<table>
